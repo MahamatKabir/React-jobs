@@ -11,12 +11,12 @@ const HomeCards = () => {
             <p className='mt-2 mb-4'>
               Browse our React jobs and start your career today
             </p>
-            <a
-              to='/'
+            <p
+              to='/jobs'
               className='inline-block bg-black text-white rounded-lg px-4 py-2 hover:bg-gray-700'
             >
               Browse Jobs
-            </a>
+            </p>
           </div>
           <div className='bg-indigo-100'>
             <h2 className='text-2xl font-bold'>For Employers</h2>
@@ -31,6 +31,26 @@ const HomeCards = () => {
             </p>
           </div>
         </div>
+      </div>
+      <div className="grid sm:grid-cols-3  gap-4 m-4">
+        <div className="min-h-[100px] rounded-lg shadow bg-amber-300">
+           
+        </div>
+        <div className="min-h-[100px] rounded-lg shadow bg-slate-700">
+           
+        </div>
+        <div className="min-h-[100px] rounded-lg shadow bg-green-700">
+           
+        </div>
+      </div>
+      <div className="grid sm:grid-cols-12 grid-cols-1 gap-4 m-4">
+        <div className="min-h-[100px] rounded-lg shadow bg-red-300 sm:col-span-2">
+           
+        </div>
+        <div className="min-h-[100px] rounded-lg shadow bg-slate-700 sm:col-span-10 sm:block hidden">
+           
+        </div>
+        
       </div>
     </section>
   );
