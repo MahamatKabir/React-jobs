@@ -31,6 +31,12 @@ const Navbar = () => {
                 <NavLink to='/first' className={linkClass}>
                   FirstCourse
                 </NavLink>
+                <NavLink to='/tail' className={linkClass}>
+                  telwind
+                </NavLink>
+                <NavLink to='/home' className={linkClass}>
+                  Navbar in tailwind
+                </NavLink>
               </div>
             </div>
           </div>
