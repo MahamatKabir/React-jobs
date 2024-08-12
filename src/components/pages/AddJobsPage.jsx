@@ -18,11 +18,23 @@ const AddJobPage = () => {
   const submitForm = (e) => {
     e.preventDefault();
 
-   
+//     const newJob = {
+//       title,
+//       type,
+//       location,
+//       description,
+//       salary,
+//       company: {
+//         name: companyName,
+//         description: companyDescription,
+//         contactEmail,
+//         contactPhone,
+//       },
+//     };
 
     //addJobSubmit(newJob);
 
-   // toast.success('Job Added Successfully');
+  //  toast.success('Job Added Successfully');
 
     return navigate('/jobs');
   };

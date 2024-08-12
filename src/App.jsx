@@ -11,7 +11,7 @@ import NotFoundPage from './components/pages/NotFoundPage';
 import AddJobPage from './components/pages/AddJobsPage';
 import FirstCourse from './components/coursepage/FirstCourse';
 import Tailwind from './components/tailwindExemple/Tailwind';
-
+import Listes from './components/Listes/Listes';
 import Home from './components/navbarexemple/Home';
 
 const router = createBrowserRouter(
@@ -23,6 +23,7 @@ const router = createBrowserRouter(
     <Route path='/first' element= {<FirstCourse />}/>
     <Route path='/tail' element= {<Tailwind />}/>
     <Route path='/home' element= {<Home />}/>
+    <Route path='/liste' element= {<Listes />}/>
     <Route path='*' element= {<NotFoundPage />}/>
     
   </Route>
