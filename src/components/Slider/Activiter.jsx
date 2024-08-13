@@ -8,37 +8,37 @@ export default function Portfolio() {
       id: 1,
       title: 'Web Development Project',
       category: 'web',
-      image: 'https://via.placeholder.com/300x200?text=Web+Project+1',
+      image: 'https://ihh.org.tr/public/page/0/21/8693/455567134506.jpg',
     },
     {
       id: 2,
       title: 'Mobile App Project',
       category: 'mobile',
-      image: 'https://via.placeholder.com/300x200?text=Mobile+Project+1',
+      image: 'https://ihh.org.tr/public/page/0/21/8693/455567134506.jpg',
     },
     {
       id: 3,
       title: 'Design Project',
       category: 'design',
-      image: 'https://via.placeholder.com/300x200?text=Design+Project+1',
+      image: 'https://ihh.org.tr/public/page/0/21/8693/455567134506.jpg',
     },
     {
       id: 4,
       title: 'Web Development Project 2',
       category: 'web',
-      image: 'https://via.placeholder.com/300x200?text=Web+Project+2',
+      image: 'https://ihh.org.tr/public/page/0/21/8693/455567134506.jpg',
     },
     {
       id: 5,
       title: 'Design Project 2',
       category: 'design',
-      image: 'https://via.placeholder.com/300x200?text=Design+Project+2',
+      image: 'https://ihh.org.tr/public/page/0/21/8693/455567134506.jpg',
     },
     {
       id: 6,
       title: 'Mobile App Project 2',
       category: 'mobile',
-      image: 'https://via.placeholder.com/300x200?text=Mobile+Project+2',
+      image: 'https://ihh.org.tr/public/page/0/21/8693/455567134506.jpg',
     },
   ];
 
@@ -60,7 +60,7 @@ export default function Portfolio() {
         <button
           onClick={() => filterProjects('all')}
           className={`py-2 px-4 rounded ${
-            selectedCategory === 'all' ? 'bg-blue-500 text-white' : 'bg-white text-blue-500 border border-blue-500'
+            selectedCategory === 'all' ? 'bg-slate-500 text-white' : 'bg-white text-slate-500 border border-slate-500'
           }`}
         >
           All
@@ -68,7 +68,7 @@ export default function Portfolio() {
         <button
           onClick={() => filterProjects('web')}
           className={`py-2 px-4 rounded ${
-            selectedCategory === 'web' ? 'bg-blue-500 text-white' : 'bg-white text-blue-500 border border-blue-500'
+            selectedCategory === 'web' ? 'bg-slate-500 text-white' : 'bg-white text-slate-500 border border-slate-500'
           }`}
         >
           Web Development
@@ -76,7 +76,7 @@ export default function Portfolio() {
         <button
           onClick={() => filterProjects('mobile')}
           className={`py-2 px-4 rounded ${
-            selectedCategory === 'mobile' ? 'bg-blue-500 text-white' : 'bg-white text-blue-500 border border-blue-500'
+            selectedCategory === 'mobile' ? 'bg-slate-500 text-white' : 'bg-white text-slate-500 border border-slate-500'
           }`}
         >
           Mobile Apps
@@ -84,7 +84,7 @@ export default function Portfolio() {
         <button
           onClick={() => filterProjects('design')}
           className={`py-2 px-4 rounded ${
-            selectedCategory === 'design' ? 'bg-blue-500 text-white' : 'bg-white text-blue-500 border border-blue-500'
+            selectedCategory === 'design' ? 'bg-slate-500 text-white' : 'bg-white text-slate-500 border border-slate-500'
           }`}
         >
           Design

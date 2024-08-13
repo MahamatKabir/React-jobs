@@ -20,7 +20,7 @@ export default function ContactForm() {
                     name="name"
                     type="text"
                     required
-                    className="mt-1 block w-full px-4 py-2 border border-gray-300 rounded-lg shadow-sm focus:outline-none focus:ring-2 focus:ring-blue-500 focus:border-transparent transition-transform transform hover:scale-105"
+                    className="mt-1 block w-full px-4 py-2 border border-gray-300 rounded-lg shadow-sm focus:outline-none focus:ring-2 focus:ring-slate-500 focus:border-transparent transition-transform transform hover:scale-105"
                     placeholder="Your Name"
                   />
                 </div>
@@ -31,7 +31,7 @@ export default function ContactForm() {
                     name="email"
                     type="email"
                     required
-                    className="mt-1 block w-full px-4 py-2 border border-gray-300 rounded-lg shadow-sm focus:outline-none focus:ring-2 focus:ring-blue-500 focus:border-transparent transition-transform transform hover:scale-105"
+                    className="mt-1 block w-full px-4 py-2 border border-gray-300 rounded-lg shadow-sm focus:outline-none focus:ring-2 focus:ring-slate-500 focus:border-transparent transition-transform transform hover:scale-105"
                     placeholder="Your Email"
                   />
                 </div>
@@ -42,14 +42,14 @@ export default function ContactForm() {
                     name="message"
                     rows="4"
                     required
-                    className="mt-1 block w-full px-4 py-2 border border-gray-300 rounded-lg shadow-sm focus:outline-none focus:ring-2 focus:ring-blue-500 focus:border-transparent transition-transform transform hover:scale-105"
+                    className="mt-1 block w-full px-4 py-2 border border-gray-300 rounded-lg shadow-sm focus:outline-none focus:ring-2 focus:ring-slate-500 focus:border-transparent transition-transform transform hover:scale-105"
                     placeholder="Your Message"
                   />
                 </div>
                 <div>
                   <button
                     type="submit"
-                    className="w-full py-3 px-6 bg-gradient-to-r from-blue-500 to-teal-500 text-white font-bold rounded-lg shadow-lg hover:shadow-xl transform transition-all hover:scale-105 focus:outline-none focus:ring-2 focus:ring-blue-500"
+                    className="w-full py-3 px-6 bg-slate-700 text-white font-bold rounded-lg shadow-lg hover:shadow-xl transform transition-all hover:scale-105 focus:outline-none focus:ring-2 focus:ring-slate-500"
                   >
                     Send Message
                   </button>
