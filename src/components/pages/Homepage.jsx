@@ -1,14 +1,12 @@
 
 
-import Hero from "../Hero"
-import HomeCards from "../HomeCards"
+import Listes from "../Listes/Listes"
 
 const HomePage = () => {
   return (
     <>
+    <Listes />
     
-    <Hero />
-    <HomeCards />
     </>
   )
 }

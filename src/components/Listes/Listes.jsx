@@ -5,7 +5,7 @@ import About from "../Slider/About";
 import Portfolio from "../Slider/Activiter";
 import ContactForm from "../Slider/Contact";
 import Footer from "../Slider/Footer";
-
+import Testimonials from "../Testimonial/Testimonial";
 const Listes = () => {
      // const choiceThemes = [
      //      {
@@ -30,22 +30,9 @@ const Listes = () => {
      <Slider />
      <About />
      <Portfolio />
+     <Testimonials />
      <ContactForm />
      <Footer />
-     {/* <ul className="m-1 p-7 flex flex-col md:flex-row justify-between  gap-4">
-     {choiceThemes.map((choise) => (
-          
-          <li key={choise.id} className="w-auto h-20 bg-red-500 rounded-xl p-1 items-center">
-              <img src={choise.icon}  className="px-7"/>
-               <p className="py-2 px-1 text-white">{choise.title}</p>
-               
-          </li>
-     ))}
-     </ul>
-       <div className="flex justify-center gap-5 ">
-       <Button label="CLİCK " className="bg-orange-800 rounded-lg min-h-max hover:bg-cyan-500" />
-       <Button label="PUSH" className="bg-cyan-500 rounded-lg hover:bg-orange-800" />
-       </div> */}
     </div>
   )
 }

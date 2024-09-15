@@ -1,5 +1,4 @@
-
-import { FaPhoneAlt, FaEnvelope } from "react-icons/fa";
+import { FaPhoneAlt, FaEnvelope, FaInstagram, FaTiktok, FaFacebookF, FaYoutube } from "react-icons/fa";
 
 const TopBar = () => {
   return (
@@ -7,19 +6,36 @@ const TopBar = () => {
       <div className="container mx-auto flex flex-col md:flex-row justify-between items-center space-y-2 md:space-y-0">
         
         {/* Contact Information */}
-        <div className="flex flex-col md:flex-row space-y-2 md:space-y-0 space-x-0 md:space-x-8 items-center">
+        <div className="flex flex-row space-x-8 items-center">
           <div className="flex items-center space-x-2">
-            <FaPhoneAlt className="text-teal-400" />
-            <span>+90 543 304 4164</span>
+            <FaPhoneAlt className="text-yellow-400" />
+            <span> +235 96956323 </span>
           </div>
           <div className="flex items-center space-x-2">
-            <FaEnvelope className="text-teal-400" />
-            <span>mahamatkabir1@gmail.com</span>
+            <FaEnvelope className="text-yellow-400" />
+            <span>alinfakorganisation@gmail.com</span>
           </div>
         </div>
+
+        {/* Social Media Icons */}
         
+
         {/* Language Selection */}
-        <div>
+        <div className="flex flex-row">
+        <div className="flex flex-row space-x-4 items-center mr-5">
+          <a href="https://www.instagram.com/alinfak_organisation?igsh=d2diNG0zbDFsMWIz" target="_blank" rel="noopener noreferrer" className="hover:text-pink-600 transition-colors duration-300 text-yellow-400">
+            <FaInstagram size={24} />
+          </a>
+          <a href="https://www.tiktok.com" target="_blank" rel="noopener noreferrer" className="hover:text-black transition-colors duration-300 text-yellow-400">
+            <FaTiktok size={24} />
+          </a>
+          <a href="https://www.facebook.com" target="_blank" rel="noopener noreferrer" className="hover:text-blue-600 transition-colors duration-300 text-yellow-400">
+            <FaFacebookF size={24} />
+          </a>
+          <a href="https://www.youtube.com" target="_blank" rel="noopener noreferrer" className="hover:text-red-600 transition-colors duration-300 text-yellow-400">
+            <FaYoutube size={24} />
+          </a>
+        </div>
           <select className="bg-gray-700 text-white p-2 rounded-md">
             <option value="en">English</option>
             <option value="fr">Français</option>

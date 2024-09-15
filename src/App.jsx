@@ -8,24 +8,19 @@ import HomePage from './components/pages/Homepage';
 import MainLayout from './components/layout/MainLayout';
 import JobesPage from './components/pages/jobesPage';
 import NotFoundPage from './components/pages/NotFoundPage';
-import AddJobPage from './components/pages/AddJobsPage';
-import FirstCourse from './components/coursepage/FirstCourse';
-import Tailwind from './components/tailwindExemple/Tailwind';
-import Listes from './components/Listes/Listes';
+import Faliyet from './components/Faliyet/Faliyet';
 import Home from './components/navbarexemple/Home';
+import ContactForm from './components/Slider/Contact';
 
 const router = createBrowserRouter(
   createRoutesFromElements(
   <Route path='/' element= {<MainLayout/>}>
-    <Route index element= {<HomePage/>}/>
-    <Route path='/jobs' element= {<JobesPage />}/>
-    <Route path='/add' element= {<AddJobPage />}/>
-    <Route path='/first' element= {<FirstCourse />}/>
-    <Route path='/tail' element= {<Tailwind />}/>
-    <Route path='/home' element= {<Home />}/>
-    <Route path='/liste' element= {<Listes />}/>
-    <Route path='*' element= {<NotFoundPage />}/>
-    
+    <Route index element= {<HomePage/>}/>  
+    <Route path='/kurumsal' element= {<JobesPage />}/>
+    <Route path='/home' element= {<Home />}/> 
+    <Route path='/contact' element= {<ContactForm />}/>
+    <Route path='/faliyet' element= {<Faliyet/>}/>
+    <Route path='*'  element= {<NotFoundPage />}/>
   </Route>
   )
 );

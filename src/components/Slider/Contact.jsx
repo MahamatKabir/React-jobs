@@ -7,8 +7,6 @@ export default function ContactForm() {
         <div className="container mx-auto p-8">
           <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
             
-            
-
             {/* Formulaire de Contact */}
             <div className="bg-white p-8 rounded-lg shadow-lg">
               <h2 className="text-3xl font-bold text-gray-900 mb-6">Get in Touch</h2>
@@ -22,7 +20,7 @@ export default function ContactForm() {
                     required
                     className="mt-1 block w-full px-4 py-2 border border-gray-300 rounded-lg shadow-sm focus:outline-none focus:ring-2 focus:ring-slate-500 focus:border-transparent transition-transform transform hover:scale-105"
                     placeholder="Your Name"
-                  />
+                  />  
                 </div>
                 <div>
                   <label htmlFor="email" className="block text-sm font-medium text-gray-700">Email</label>
@@ -57,7 +55,7 @@ export default function ContactForm() {
               </form>
             </div>
 {/* Texte d'Information */}
-<div className="text-white flex flex-col justify-center">
+            <div className="text-white flex flex-col justify-center">
               <h1 className="text-4xl font-bold mb-4">Welcome to Our Contact Page</h1>
               <p className="mb-6">
                 We d love to hear from you! Whether you have a question about features, trials, pricing, or anything else, our team is ready to answer all your questions.

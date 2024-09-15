@@ -8,23 +8,21 @@ const About = () => {
   
     {/* Champ Texte */}
     <div className="relative mx-11 md:w-1/2 p-14">
-      <h2 className="text-4xl font-extrabold mb-4 text-gray-800">À propos de l organisation IDA</h2>
+      <h2 className="text-4xl font-extrabold mb-4 text-gray-800">AL-İNFAK Organisation hakkında</h2>
       <p className="text-gray-700 text-lg leading-relaxed mb-6">
-        L&apos;organisation IDA est dédiée à fournir des services de qualité dans divers domaines. Notre mission est de
-        promouvoir l&apos;innovation, l&apos;engagement communautaire, et de créer un impact positif à travers nos initiatives.
-        Nous croyons en l&apos;importance de la collaboration et de l&apos; pour atteindre nos objectifs communs.
+      AL-İNFAK Organisation , savunmasız grupların yararına çeşitli türlerde yardımlar sağlamak amacıyla yeni kurulmuş, kar amacı gütmeyen ve siyasi olmayan bir dernektir.
       </p>
-      <button className="px-6 py-3 text-white bg-slate-500 rounded-full shadow-md hover:bg-slate-600 hover:shadow-lg transition-colors duration-300 ease-in-out">
-        Read More
+      <button className="px-6 py-3 text-white bg-yellow-400 rounded-full shadow-md hover:bg-slate-600 hover:shadow-lg transition-colors duration-300 ease-in-out">
+        Fazla
       </button>
     </div>
   
     {/* Champ Image */}
-    <div className="relative  md:w-1/3 p-2 bg-slate-700 rounded-lg shadow-lg">
+    <div className="relative  md:w-1/3 p-2 bg-yellow-400 rounded-lg shadow-lg">
       <img
         src="https://ihh.org.tr/public/page/0/21/8693/455567134506.jpg"
         alt="Organisation IDA"
-        className="w-[400px] h-[400px] object-cover relative right-10 top-6 rounded-lg shadow-md border-4 border-white transition-transform duration-300 ease-in-out "
+        className="w-[400px] h-[400px] object-cover relative right-10 top-6 rounded-lg shadow-md border-4 border-blue-600 transition-transform duration-300 ease-in-out "
       />
     </div>
   </div>
