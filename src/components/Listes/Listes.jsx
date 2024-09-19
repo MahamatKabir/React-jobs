@@ -2,10 +2,9 @@
 // import Button from "../Ui/Button";
 import Slider from "../Slider/Slider";
 import About from "../Slider/About";
-import Portfolio from "../Slider/Activiter";
-import ContactForm from "../Slider/Contact";
 import Footer from "../Slider/Footer";
 import Testimonials from "../Testimonial/Testimonial";
+import IyilikHaritasi from "../İyilik";
 const Listes = () => {
      // const choiceThemes = [
      //      {
@@ -29,9 +28,8 @@ const Listes = () => {
     <div className="min-h-full">
      <Slider />
      <About />
-     <Portfolio />
      <Testimonials />
-     <ContactForm />
+     <IyilikHaritasi />
      <Footer />
     </div>
   )

@@ -2,7 +2,7 @@ import { useState, useEffect } from 'react';
 import { NavLink } from 'react-router-dom';
 import { FaBars, FaTimes } from 'react-icons/fa';
 import PropTypes from 'prop-types';
-import logo from '../assets/images/logo.jpeg';
+import logos from '../assets/logos.jpeg';
 import TopBar from './Slider/Topbar';
 
 // Reusable component for navigation links with animated border on hover
@@ -68,7 +68,7 @@ const Navbar = () => {
             <div className='flex-shrink-0'>
               <img
                 className=' h-30 w-28 border-2 border-black logo-hover transition-transform duration-300'
-                src={logo}
+                src={logos}
                 alt='Logo'
               />
             </div>

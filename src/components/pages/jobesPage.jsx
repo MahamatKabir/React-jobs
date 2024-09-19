@@ -33,7 +33,7 @@ const JobesPage = () => {
             <h2 className="text-4xl font-semibold text-gray-900">VİZYONUMUZ</h2>
           </div>
           <p className="leading-relaxed text-lg text-gray-700">
-            AL-INFAK Organisation, bilgi birikimi, verimliliği ve şeffaflığı sayesinde sosyal, insani ve kalkınma çalışmalarında Çad'da lider olmayı ve genel olarak Afrika'da kademeli olarak genişlemeyi arzulamaktadır.
+            AL-INFAK Organisation, bilgi birikimi, verimliliği ve şeffaflığı sayesinde sosyal, insani ve kalkınma çalışmalarında Çad&aposda lider olmayı ve genel olarak Afrika&aposda kademeli olarak genişlemeyi arzulamaktadır.
           </p>
         </section>
 
@@ -48,11 +48,11 @@ const JobesPage = () => {
           </p>
         </section>
 
-        {/* Section 4 - Membres de l'Organisation */}
+        {/* Section 4 - Membres de l&aposOrganisation */}
         <section className="bg-white shadow-lg p-8 rounded-lg">
           <div className="flex items-center space-x-4 mb-6">
             <FaUserTie className="text-yellow-400 text-3xl" />
-            <h2 className="text-4xl font-semibold text-gray-900">Membres de l'Organisation</h2>
+            <h2 className="text-4xl font-semibold text-gray-900">Membres de l&aposOrganisation</h2>
           </div>
           {/* Grille pour organiser les membres */}
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8">

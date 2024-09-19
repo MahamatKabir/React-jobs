@@ -1,5 +1,5 @@
 
-
+import { NavLink } from "react-router-dom"
 const About = () => {
   return (
     <div className="w-full flex flex-col md:flex-row items-center justify-center p-10 gap-10  bg-gradient-to-r from-slate-300 to-white relative overflow-hidden rounded-xl shadow-lg">
@@ -12,9 +12,14 @@ const About = () => {
       <p className="text-gray-700 text-lg leading-relaxed mb-6">
       AL-İNFAK Organisation , savunmasız grupların yararına çeşitli türlerde yardımlar sağlamak amacıyla yeni kurulmuş, kar amacı gütmeyen ve siyasi olmayan bir dernektir.
       </p>
-      <button className="px-6 py-3 text-white bg-yellow-400 rounded-full shadow-md hover:bg-slate-600 hover:shadow-lg transition-colors duration-300 ease-in-out">
-        Fazla
-      </button>
+      <div className="text-left mt-8">
+          <NavLink
+            to="/kurumsal"
+            className="bg-yellow-600 text-white px-8 py-3 rounded-full hover:bg-blue-700 transition transform hover:scale-105 shadow-lg"
+          >
+            Fazla
+          </NavLink>
+        </div>
     </div>
   
     {/* Champ Image */}
