@@ -1,4 +1,82 @@
 {
+
+     "aidons_ensemble": "Birlikte Yardım Edelim",
+    "forage_eau": "Su Kuyusu",
+    "ramazan": "Ramazan",
+    "construction_mosques": "Cami İnşaatı",
+    "zekat": "Zekat",
+    "navbar": {
+    "home": "Home",
+    "kurumsal": "Kurumsal",
+    "faliyet": "Faaliyet",
+    "contact": "Contact"
+  },
+    "about": {
+    "title": "AL-İNFAK Organizasyonu Hakkında",
+    "description": "AL-İNFAK Organizasyonu, savunmasız grupların yararına çeşitli türlerde yardımlar sağlamak amacıyla yeni kurulmuş, kar amacı gütmeyen ve siyasi olmayan bir dernektir.",
+    "more_button": "Daha Fazla"
+  },
+  "faaliyetler": {
+    "title": "Faaliyetler",
+    "kurban_name": "Kurban Bayramı",
+    "kurban_text": "Yardımlaşma ve dayanışma misyonumuz doğrultusunda her yıl Kurban Bayramı'nda et dağıtımı düzenliyoruz. Bağışçılarımızın cömertliği sayesinde, ihtiyaç sahibi ailelere kurban hediye ediyor ve bu kutsal bayramın bereketini paylaşıyoruz.",
+    "ramazan_name": "Ramazan Etkinliği",
+    "ramazan_text": "Mübarek Ramazan ayında, topluluk etkinlikleri ve ihtiyaç sahiplerine yemek dağıtımları düzenliyoruz. Amacımız, topluluk içindeki kardeşlik ve dayanışma ruhunu güçlendirmek, aynı zamanda maddi ve manevi destek sağlamak.",
+    "cami_name": "Cami İnşaatı",
+    "cami_text": "Birlikte, ibadet, eğitim ve buluşma yeri olacak bir cami inşasına katkıda bulunuyoruz.",
+    "more_button": "Daha Fazla"
+  },
+  "faliyet": {
+    "title": "Faaliyetlerimiz",
+    "zekat": {
+      "name": "ZEKAT",
+      "description": "Zekat, İslam'ın beş şartından biridir. İhtiyaç sahiplerine yardım etmek için Müslümanların mallarından zorunlu bir sadakadır."
+    },
+    "yetim": {
+      "name": "YETİM",
+      "description": "Yetimlere, maddi ve eğitim desteği sağlama yardımı."
+    },
+    "ramazan": {
+      "name": "RAMAZAN",
+      "description": "Ramazan ayında, en yoksul için gıda dağıtımı ve mali yardımlarla destek."
+    },
+    "kurban": {
+      "name": "KURBAN",
+      "description": "Bayram sırasında ihtiyaç sahiplerine kurban etinin dağıtımı."
+    },
+    "su_kuyusu": {
+      "name": "SU KUYUSU",
+      "description": "Kuraklıktan etkilenen bölgelerde içme suyu sağlamak için kuyu inşaatı."
+    },
+    "camiler": {
+      "name": "CAMİLER",
+      "description": "Farklı bölgelerde cami inşaatı ve restorasyonuna destek."
+    },
+    "mescitler": {
+      "name": "MESCİTLER",
+      "description": "Küçük ibadet yerleri, genellikle köylerde dini pratiklere erişimi kolaylaştırmak için inşa edilir."
+    }
+  },
+  "jobes": {
+    "title": "Hakkımızda",
+    "about": "Biz kimiz ?",
+    "about_text": "AL-İNFAK Organisation, savunmasız grupların yararına çeşitli türlerde yardımlar sağlamak amacıyla yeni kurulmuş, kar amacı gütmeyen ve siyasi olmayan bir dernektir.",
+    "vision": "VİZYONUMUZ",
+    "vision_text": "AL-INFAK Organisation, bilgi birikimi, verimliliği ve şeffaflığı sayesinde sosyal, insani ve kalkınma çalışmalarında Çad'da lider olmayı ve genel olarak Afrika'da kademeli olarak genişlemeyi arzulamaktadır.",
+    "goals": "Hedefler",
+    "goals_text": "Ülkemizde ve yedi kıtada insanlığın hizmetinde bir organisation olmayı hedefliyoruz. Misyonumuz, hayır kurumlarını tam şeffaflık ve güven içinde yararlanıcılarına teslim etmektir.",
+    "members": "Membres de l'organisation",
+    "presidency": "Présidence",
+    "president": "Président: Issa Abdraman Toukchi",
+    "vice_president": "Vice-président: Soumaine Abdraman Saleh",
+    "secretariat": "Secrétariat Général",
+    "sg": "SG: Saïd Daoud",
+    "sg_assistant": "SG Adjoint: Zakaria Ibrahim",
+    "treasury": "Trésorerie",
+    "tg": "TG: Abdelkerim Abdrahman",
+    "tg_assistant": "TG Adjoint: Ousman Addalil"
+  },
+  
      "footer_title": "AL-İNFAK Organisation",
      "footer_description": "AL-İNFAK Organisation, savunmasız gruplara çeşitli yardımlar sağlamak amacıyla yeni kurulmuş bir kar amacı gütmeyen, siyasi olmayan bir dernektir.",
      "quick_links": "Hızlı Bağlantılar",

@@ -11,7 +11,7 @@ const Aboutpage = () => {
         <div className="sm:col-span-6 col-span-12 flex items-center justify-center">
           <img src={imageUrl} alt="Profile" className="rounded-lg shadow-lg  object-cover   sm:max-h-full sm:h-auto" />
         </div>
-      </div>
+      </div> 
       <div className="columns-2 box-content   border-4  hover:box-content">
   <p>Well, let me tell you something, ...</p>
   <p className="break-after-column">Sure, go ahead, laugh...</p>

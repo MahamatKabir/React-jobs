@@ -1,4 +1,80 @@
 {
+  "aidons_ensemble": "Aidons Ensemble",
+  "forage_eau": "Forage d'eau",
+  "ramazan": "Ramadan",
+  "construction_mosques": "Construction des mosquées",
+  "zekat": "Zekat",
+  "navbar": {
+    "home": "Accueil",
+    "kurumsal": "Corporate",
+    "faliyet": "Activités",
+    "contact": "Contact"
+  },
+  "about": {
+    "title": "À propos de l'Organisation AL-INFAK",
+    "description": "L'Organisation AL-INFAK est une association nouvellement créée, à but non lucratif et apolitique, visant à fournir divers types d'aide au profit des groupes vulnérables.",
+    "more_button": "Plus"
+  },
+  "jobes": {
+    "title": "À propos",
+    "about": "Qui sommes-nous ?",
+    "about_text": "AL-İNFAK Organisation est une association nouvellement créée à but non lucratif et apolitique, visant à fournir divers types d'assistance au profit de groupes vulnérables.",
+    "vision": "NOTRE VISION",
+    "vision_text": "AL-INFAK Organisation aspire à devenir un leader dans les travaux sociaux, humanitaires et de développement au Tchad grâce à son savoir-faire, son efficacité et sa transparence, et à s'étendre progressivement en Afrique.",
+    "goals": "Objectifs",
+    "goals_text": "Nous visons à être une organisation au service de l'humanité dans notre pays et sur les sept continents. Notre mission est de livrer les œuvres de charité avec transparence et confiance aux bénéficiaires.",
+    "members": "Membres de l'organisation",
+    "presidency": "Présidence",
+    "president": "Président: Issa Abdraman Toukchi",
+    "vice_president": "Vice-président: Soumaine Abdraman Saleh",
+    "secretariat": "Secrétariat Général",
+    "sg": "SG: Saïd Daoud",
+    "sg_assistant": "SG Adjoint: Zakaria Ibrahim",
+    "treasury": "Trésorerie",
+    "tg": "TG: Abdelkerim Abdrahman",
+    "tg_assistant": "TG Adjoint: Ousman Addalil"
+  },
+  "faaliyetler": {
+    "title": "Activités",
+    "kurban_name": "Fête du Sacrifice",
+    "kurban_text": "Dans le cadre de notre mission de solidarité, nous organisons chaque année une distribution de viande pendant la Fête du Sacrifice. Grâce à la générosité de nos donateurs, nous offrons des sacrifices aux familles dans le besoin et partageons les bénédictions de cette fête sacrée.",
+    "ramazan_name": "Activité du Ramadan",
+    "ramazan_text": "Pendant le mois béni du Ramadan, nous organisons des événements communautaires et des distributions de nourriture pour les nécessiteux. Notre objectif est de renforcer l'esprit de fraternité et de solidarité au sein de la communauté tout en apportant un soutien matériel et moral.",
+    "cami_name": "Construction de Mosquée",
+    "cami_text": "Ensemble, nous contribuons à la construction d'une mosquée qui servira de lieu de prière, d'éducation et de rencontre.",
+    "more_button": "En savoir plus"
+  },
+  "faliyet": {
+    "title": "Faaliyetlerimiz",
+    "zekat": {
+      "name": "ZEKAT",
+      "description": "Zekat est l'un des cinq piliers de l'Islam. C'est une aumône obligatoire sur les biens des musulmans pour aider les nécessiteux."
+    },
+    "yetim": {
+      "name": "YETİM",
+      "description": "Aide aux orphelins, en leur fournissant un soutien matériel et éducatif."
+    },
+    "ramazan": {
+      "name": "RAMAZAN",
+      "description": "Soutien pendant le mois de Ramadan avec des distributions alimentaires et des aides financières pour les plus démunis."
+    },
+    "kurban": {
+      "name": "KURBAN",
+      "description": "Distribution de viande de Kurban aux personnes dans le besoin pendant les festivités de l'Aïd."
+    },
+    "su_kuyusu": {
+      "name": "SU KUYUSU",
+      "description": "Construction de puits pour fournir de l'eau potable dans les régions touchées par la sécheresse."
+    },
+    "camiler": {
+      "name": "CAMİLER",
+      "description": "Soutien à la construction et la restauration de mosquées dans diverses régions."
+    },
+    "mescitler": {
+      "name": "MESCİTLER",
+      "description": "Petits lieux de prière, souvent construits dans les villages pour faciliter l'accès à la pratique religieuse."
+    }
+  },
      "footer_title": "AL-İNFAK Organisation",
      "footer_description": "AL-İNFAK Organisation est une organisation à but non lucratif et apolitique récemment fondée pour fournir une aide aux groupes vulnérables.",
      "quick_links": "Liens Rapides",

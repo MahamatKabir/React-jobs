@@ -1,7 +1,7 @@
 import { FaPhoneAlt, FaEnvelope, FaInstagram, FaTiktok, FaFacebookF, } from "react-icons/fa";
 import  {NavLink}  from "react-router-dom";
 import { useTranslation } from 'react-i18next';
-import i18n from "../../i18n";
+
 const TopBar = () => {
   const { i18n } = useTranslation();
 

@@ -1,8 +1,11 @@
 import { useState, useEffect } from 'react';
 import PropTypes from 'prop-types'; // Import PropTypes
 import { FaArrowAltCircleLeft, FaArrowAltCircleRight, FaHandsHelping, FaWater, FaHome, FaHospital, FaSchool } from 'react-icons/fa';
+import sadakat from "../../assets/sadakat.jpg";
+import mescitte from "../../assets/mescitte.jpg";
+import zekate from "../../assets/zekate.jpg";
+import { useTranslation } from 'react-i18next';
 
-// Arrow Button Component with PropTypes
 const ArrowButton = ({ direction, onClick }) => (
   <button
     onClick={onClick}
@@ -18,13 +21,11 @@ const ArrowButton = ({ direction, onClick }) => (
   </button>
 );
 
-// Add prop-types validation for ArrowButton component
 ArrowButton.propTypes = {
-  direction: PropTypes.oneOf(['left', 'right']).isRequired, // Validates that direction is either 'left' or 'right'
-  onClick: PropTypes.func.isRequired, // Validates that onClick is a function
+  direction: PropTypes.oneOf(['left', 'right']).isRequired,
+  onClick: PropTypes.func.isRequired,
 };
 
-// Slide Component
 const Slide = ({ slide }) => (
   <div className="min-w-full">
     <img
@@ -35,7 +36,6 @@ const Slide = ({ slide }) => (
   </div>
 );
 
-// Add prop-types validation for Slide component
 Slide.propTypes = {
   slide: PropTypes.shape({
     id: PropTypes.number.isRequired,
@@ -44,7 +44,6 @@ Slide.propTypes = {
   }).isRequired,
 };
 
-// List Item Component
 const ListItem = ({ icon: Icon, label, index, currentIndex, handleClick }) => (
   <li
     onClick={() => handleClick(index)}
@@ -57,9 +56,8 @@ const ListItem = ({ icon: Icon, label, index, currentIndex, handleClick }) => (
   </li>
 );
 
-// Add prop-types validation for ListItem component
 ListItem.propTypes = {
-  icon: PropTypes.elementType.isRequired, // Validates that the icon is a component (like FaWater, etc.)
+  icon: PropTypes.elementType.isRequired,
   label: PropTypes.string.isRequired,
   index: PropTypes.number.isRequired,
   currentIndex: PropTypes.number.isRequired,
@@ -67,23 +65,25 @@ ListItem.propTypes = {
 };
 
 export default function Slider() {
+  const { t } = useTranslation(); // Use translation hook
+
   const [currentIndex, setCurrentIndex] = useState(0);
   const [isPaused, setIsPaused] = useState(false);
 
   const slides = [
-    { id: 1, imageUrl: 'https://ihh.org.tr/public/page/0/21/8693/455567134506.jpg', title: "Bienvenu a l'organisation IDA" },
-    { id: 2, imageUrl: 'https://cdn.sefkateli.org.tr/upload/images/bagis/bagis-icerik/su-kuyusu-bagis-afrika-icerik.jpg', title: "Ensemble aidons nos frères" },
-    { id: 3, imageUrl: 'https://example.com/slide3.jpg', title: "Construire des maisons" },
-    { id: 4, imageUrl: 'https://cdn.sefkateli.org.tr/upload/images/bagis/bagis-icerik/su-kuyusu-bagis-afrika-icerik.jpg', title: "Établir des hôpitaux" },
-    { id: 5, imageUrl: 'https://example.com/slide5.jpg', title: "Soutenir les écoles" },
+    { id: 1, imageUrl: 'https://ihh.org.tr/public/page/0/21/8693/455567134506.jpg' },
+    { id: 2, imageUrl: 'https://cdn.sefkateli.org.tr/upload/images/bagis/bagis-icerik/su-kuyusu-bagis-afrika-icerik.jpg' },
+    { id: 3, imageUrl: sadakat },
+    { id: 4, imageUrl: mescitte },
+    { id: 5, imageUrl: zekate },
   ];
 
   const listItems = [
-    { icon: FaHandsHelping, label: "Aidons Ensemble" },
-    { icon: FaWater, label: "Forage deau" },
-    { icon: FaHome, label: "Construire des maisons" },
-    { icon: FaHospital, label: "Établir des hôpitaux" },
-    { icon: FaSchool, label: "Soutenir les écoles" },
+    { icon: FaHandsHelping, label: t('aidons_ensemble') }, // Use translation key
+    { icon: FaWater, label: t('forage_eau') }, // Use translation key
+    { icon: FaHome, label: t('ramazan') }, // Use translation key
+    { icon: FaHospital, label: t('construction_mosques') }, // Use translation key
+    { icon: FaSchool, label: t('zekat') }, // Use translation key
   ];
 
   const prevSlide = () => {
@@ -115,13 +115,6 @@ export default function Slider() {
 
   return (
     <div className="relative w-full my-1 h-[600px] mx-auto overflow-hidden rounded-lg shadow-lg">
-      {/* Title Overlay */}
-      <div className="absolute inset-0 flex items-center justify-center z-10">
-        <h1 className="text-white text-5xl font-bold bg-black bg-opacity-50 px-4 py-2 rounded">
-          {slides[currentIndex].title}
-        </h1>
-      </div>
-
       {/* Slider */}
       <div
         className="flex transition-transform duration-500 ease-in-out"
@@ -143,7 +136,7 @@ export default function Slider() {
             <ListItem
               key={index}
               icon={item.icon}
-              label={item.label}
+              label={item.label} // Translated label
               index={index}
               currentIndex={currentIndex}
               handleClick={handleListItemClick}

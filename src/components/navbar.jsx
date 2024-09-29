@@ -4,6 +4,7 @@ import { FaBars, FaTimes } from 'react-icons/fa';
 import PropTypes from 'prop-types';
 import logos from '../assets/logos.jpeg';
 import TopBar from './Slider/Topbar';
+import { useTranslation } from 'react-i18next'; // Import useTranslation
 
 // Reusable component for navigation links with animated border on hover
 const NavItem = ({ to, children, onClick }) => {
@@ -32,6 +33,7 @@ NavItem.propTypes = {
 };
 
 const Navbar = () => {
+  const { t } = useTranslation(); // Initialize useTranslation hook
   const [isOpen, setIsOpen] = useState(false);
   const [isSticky, setIsSticky] = useState(false);
 
@@ -76,10 +78,10 @@ const Navbar = () => {
             {/* Centered Navigation Links */}
             <div className='flex-1 flex justify-center items-center'>
               <div className='hidden md:flex space-x-6'>
-                <NavItem to='/'>Home</NavItem>
-                <NavItem to='/kurumsal'>Kurumsal</NavItem>
-                <NavItem to='/faliyet'>Faaliyet</NavItem>
-                <NavItem to='/contact'>Contact</NavItem>
+                <NavItem to='/'>{t('navbar.home')}</NavItem>
+                <NavItem to='/kurumsal'>{t('navbar.kurumsal')}</NavItem>
+                <NavItem to='/faliyet'>{t('navbar.faliyet')}</NavItem>
+                <NavItem to='/contact'>{t('navbar.contact')}</NavItem>
               </div>
             </div>
 
@@ -102,10 +104,10 @@ const Navbar = () => {
           {/* Mobile Menu */}
           {isOpen && (
             <div className='md:hidden space-y-4 pt-6 animate-slideIn'>
-              <NavItem to='/' onClick={toggleMenu}>Home</NavItem>
-              <NavItem to='/kurumsal' onClick={toggleMenu}>Kurumsal</NavItem>
-              <NavItem to='/faliyet' onClick={toggleMenu}>Faaliyet</NavItem>
-              <NavItem to='/contact' onClick={toggleMenu}>Contact</NavItem>
+              <NavItem to='/' onClick={toggleMenu}>{t('navbar.home')}</NavItem>
+              <NavItem to='/kurumsal' onClick={toggleMenu}>{t('navbar.kurumsal')}</NavItem>
+              <NavItem to='/faliyet' onClick={toggleMenu}>{t('navbar.faliyet')}</NavItem>
+              <NavItem to='/contact' onClick={toggleMenu}>{t('navbar.contact')}</NavItem>
             </div>
           )}
         </div>

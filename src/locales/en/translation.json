@@ -1,4 +1,82 @@
 {
+
+     "aidons_ensemble": "Let’s Help Together",
+    "forage_eau": "Water Well",
+    "ramazan": "Ramadan",
+    "construction_mosques": "Mosque Construction",
+    "zekat": "Zakat",
+    "navbar": {
+    "home": "Home",
+    "kurumsal": "Corporate",
+    "faliyet": "Activities",
+    "contact": "Contact"
+  },
+  "about": {
+    "title": "About AL-INFAK Organisation",
+    "description": "AL-INFAK Organisation is a newly established, non-profit, and non-political association aimed at providing various types of assistance for the benefit of vulnerable groups.",
+    "more_button": "More"
+  },
+  "faaliyetler": {
+    "title": "Activities",
+    "kurban_name": "Feast of Sacrifice",
+    "kurban_text": "In line with our mission of solidarity, we organize meat distribution every year during the Feast of Sacrifice. Thanks to the generosity of our donors, we offer sacrifices to families in need and share the blessings of this sacred holiday.",
+    "ramazan_name": "Ramadan Event",
+    "ramazan_text": "During the blessed month of Ramadan, we organize community events and distribute meals to those in need. Our aim is to strengthen the spirit of brotherhood and solidarity within the community, while also providing material and spiritual support.",
+    "cami_name": "Mosque Construction",
+    "cami_text": "Together, we contribute to the construction of a mosque that will serve as a place of worship, education, and gathering.",
+    "more_button": "Learn More"
+  },
+  "faliyet": {
+    "title": "Our Activities",
+    "zekat": {
+      "name": "ZEKAT",
+      "description": "Zekat is one of the five pillars of Islam. It is a mandatory almsgiving on the wealth of Muslims to help the needy."
+    },
+    "yetim": {
+      "name": "YETİM",
+      "description": "Aid for orphans, providing them with material and educational support."
+    },
+    "ramazan": {
+      "name": "RAMADAN",
+      "description": "Support during the month of Ramadan with food distributions and financial aid for the less fortunate."
+    },
+    "kurban": {
+      "name": "KURBAN",
+      "description": "Distribution of Kurban meat to those in need during the Eid festivities."
+    },
+    "su_kuyusu": {
+      "name": "WELL",
+      "description": "Construction of wells to provide drinking water in drought-affected areas."
+    },
+    "camiler": {
+      "name": "MOSQUES",
+      "description": "Support for the construction and restoration of mosques in various regions."
+    },
+    "mescitler": {
+      "name": "PRAYER ROOMS",
+      "description": "Small places of prayer, often built in villages to facilitate access to religious practice."
+    }
+  },
+  "jobes": {
+    "title": "About Us",
+    "about": "Who are we?",
+    "about_text": "AL-İNFAK Organisation is a newly established, non-profit, and non-political association aimed at providing various types of assistance for the benefit of vulnerable groups.",
+    "vision": "OUR VISION",
+    "vision_text": "AL-INFAK Organisation aims to lead social, humanitarian, and development work in Chad through its expertise, efficiency, and transparency, and to gradually expand across Africa.",
+    "goals": "Goals",
+    "goals_text": "We aim to be an organization at the service of humanity in our country and across seven continents. Our mission is to deliver charitable works with complete transparency and trust to beneficiaries.",
+    "members": "Members of the Organization",
+    "presidency": "Presidency",
+    "president": "President: Issa Abdraman Toukchi",
+    "vice_president": "Vice President: Soumaine Abdraman Saleh",
+    "secretariat": "General Secretariat",
+    "sg": "SG: Saïd Daoud",
+    "sg_assistant": "Deputy SG: Zakaria Ibrahim",
+    "treasury": "Treasury",
+    "tg": "TG: Abdelkerim Abdrahman",
+    "tg_assistant": "Deputy TG: Ousman Addalil"
+  },
+  
      "footer_title": "AL-İNFAK Organisation",
      "footer_description": "AL-İNFAK Organisation is a non-profit and non-political organization newly founded to provide assistance for vulnerable groups.",
      "quick_links": "Quick Links",
