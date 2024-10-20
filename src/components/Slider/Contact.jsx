@@ -1,20 +1,24 @@
 import Footer from "./Footer";
-import Slider from "./Slider";
+import { useTranslation } from 'react-i18next'; // Import useTranslation
 
 export default function ContactForm() {
+  const { t } = useTranslation(); // Initialize useTranslation hook
   return (
-    <div className="min-h-[500px] bg-cover bg-center bg-no-repeat">
-      <Slider />
-      <div className="flex items-center justify-center h-full bg-gray-300 bg-opacity-50">
+    <div className="min-h-[500px] bg-cover bg-center bg-no-repeat relative">
+      
+      <div className="flex items-center justify-center h-full bg-gray-800 bg-opacity-50">
         <div className="container mx-auto p-8">
           <div className="grid grid-cols-1 lg:grid-cols-3 gap-8">
-            {/* Formulaire de Contact */}
+            
+            
+
+            {/* Contact Form */}
             <div className="lg:col-span-2 bg-white p-8 rounded-lg shadow-lg">
-              <h2 className="text-3xl font-bold text-gray-900 mb-6">Get in Touch</h2>
+              <h2 className="text-3xl font-bold text-gray-900 mb-6 text-center">{t('contact.title')}</h2>
               <form className="space-y-4">
                 <div>
                   <label htmlFor="name" className="block text-sm font-medium text-gray-700">
-                    Name
+                  {t('contact.name')}
                   </label>
                   <input
                     id="name"
@@ -27,7 +31,7 @@ export default function ContactForm() {
                 </div>
                 <div>
                   <label htmlFor="email" className="block text-sm font-medium text-gray-700">
-                    Email
+                  {t('contact.email')}
                   </label>
                   <input
                     id="email"
@@ -40,7 +44,7 @@ export default function ContactForm() {
                 </div>
                 <div>
                   <label htmlFor="message" className="block text-sm font-medium text-gray-700">
-                    Message
+                  {t('contact.message')}
                   </label>
                   <textarea
                     id="message"
@@ -54,33 +58,23 @@ export default function ContactForm() {
                 <div>
                   <button
                     type="submit"
-                    className="w-full py-3 px-6 bg-slate-700 text-white font-bold rounded-lg shadow-lg hover:shadow-xl transform transition-all hover:scale-105 focus:outline-none focus:ring-2 focus:ring-slate-500"
+                    className="w-full py-3 px-6 bg-slate-700 text-white font-bold rounded-lg shadow-lg hover:bg-slate-600 transition duration-200 ease-in-out transform hover:scale-105 focus:outline-none focus:ring-2 focus:ring-slate-500"
                   >
-                    Send Message
+                    {t('contact.send')}
                   </button>
                 </div>
               </form>
             </div>
-
-            {/* Contact Info Section */}
-            <div className="text-white flex flex-col justify-center bg-slate-800 p-8 rounded-lg shadow-lg">
-              <h1 className="text-4xl font-bold mb-4">Welcome to Our Contact Page</h1>
-              <p className="mb-6 text-lg">
-                We d love to hear from you! Whether you have a question about features, pricing, or anything else, our team is here to help.
-              </p>
-              <p className="mb-6 text-lg">
-                Feel free to reach out by filling out the contact form, or visit us at our office. We welcome new ideas and collaborations.
-              </p>
-              {/* Separate Contact Info */}
-              <div className="bg-slate-700 p-4 rounded-lg mt-6">
-                <h3 className="text-xl font-bold mb-2">Contact Info</h3>
-                <p className="text-lg">
-                  <strong>Phone:</strong> 559393
-                </p>
-                <p className="text-lg">
-                  <strong>Email:</strong> m@gmail.com
-                </p>
-              </div>
+            {/* Google Map Section */}
+            <div className="flex justify-center">
+              <iframe
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3978.725646261933!2d15.044497275391554!3d12.134845191371284!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x11151f321f4d7d59%3A0x40d8992721f84a97!2sN&#39;Djamena%2C%20Chad!5e0!3m2!1sen!2str!4v1696608172204!5m2!1sen!2str"
+                width="100%"  
+                height="500"
+                allowFullScreen=""
+                loading="lazy"
+                className="rounded-lg shadow-lg border-2 border-gray-300"
+              />
             </div>
           </div>
         </div>

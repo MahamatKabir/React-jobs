@@ -4,7 +4,7 @@ import Slider from "../Slider/Slider";
 import About from "../Slider/About";
 import Footer from "../Slider/Footer";
 import Testimonials from "../Testimonial/Testimonial";
-import IyilikHaritasi from "../İyilik";
+
 const Listes = () => {
      // const choiceThemes = [
      //      {
@@ -29,7 +29,6 @@ const Listes = () => {
      <Slider />
      <About />
      <Testimonials />
-     <IyilikHaritasi />
      <Footer />
     </div>
   )

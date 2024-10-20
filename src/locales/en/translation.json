@@ -7,7 +7,7 @@
     "zekat": "Zakat",
     "navbar": {
     "home": "Home",
-    "kurumsal": "Corporate",
+    "kurumsal": "About Us",
     "faliyet": "Activities",
     "contact": "Contact"
   },
@@ -16,6 +16,13 @@
     "description": "AL-INFAK Organisation is a newly established, non-profit, and non-political association aimed at providing various types of assistance for the benefit of vulnerable groups.",
     "more_button": "More"
   },
+  "contact": {
+         "title": "Get in touch",
+         "name": "Name",
+         "email": "Email",
+         "message": "Message",
+         "send": "Send"
+     },
   "faaliyetler": {
     "title": "Activities",
     "kurban_name": "Feast of Sacrifice",

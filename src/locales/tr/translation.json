@@ -1,16 +1,24 @@
 {
 
-     "aidons_ensemble": "Birlikte Yardım Edelim",
+    "aidons_ensemble": "Birlikte Yardım Edelim",
     "forage_eau": "Su Kuyusu",
     "ramazan": "Ramazan",
     "construction_mosques": "Cami İnşaatı",
     "zekat": "Zekat",
     "navbar": {
-    "home": "Home",
+    "home": "Ana Sayfa",
     "kurumsal": "Kurumsal",
     "faliyet": "Faaliyet",
-    "contact": "Contact"
+    "contact": "İletişim"
   },
+  "contact": {
+    "title": "İletişime geçin",
+    "name": "Ad",
+    "email": "E-posta",
+    "message": "Mesaj",
+    "send": "Gönder"
+}
+,
     "about": {
     "title": "AL-İNFAK Organizasyonu Hakkında",
     "description": "AL-İNFAK Organizasyonu, savunmasız grupların yararına çeşitli türlerde yardımlar sağlamak amacıyla yeni kurulmuş, kar amacı gütmeyen ve siyasi olmayan bir dernektir.",

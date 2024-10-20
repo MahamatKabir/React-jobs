@@ -1,5 +1,5 @@
 import { FaBullseye,FaCrown,FaUser, FaFileSignature,  FaMoneyCheckAlt, FaHandsHelping, FaGlobe, FaUserTie } from "react-icons/fa";
-import Slider from "../Slider/Slider";
+
 import Footer from "../Slider/Footer";
 import { useTranslation } from "react-i18next";
 
@@ -8,7 +8,7 @@ const JobesPage = () => {
 
   return (
     <div className="min-h-screen bg-gray-50 text-white">
-      <Slider />
+      
       {/* En-tête */}
       <header className="bg-white shadow-md py-8">
         <div className="container mx-auto flex justify-between items-center">

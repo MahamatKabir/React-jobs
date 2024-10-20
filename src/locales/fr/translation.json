@@ -6,7 +6,7 @@
   "zekat": "Zekat",
   "navbar": {
     "home": "Accueil",
-    "kurumsal": "Corporate",
+    "kurumsal": "A propos",
     "faliyet": "Activités",
     "contact": "Contact"
   },
@@ -15,6 +15,13 @@
     "description": "L'Organisation AL-INFAK est une association nouvellement créée, à but non lucratif et apolitique, visant à fournir divers types d'aide au profit des groupes vulnérables.",
     "more_button": "Plus"
   },
+  "contact": {
+    "title": "Contactez-nous",
+    "name": "Nom",
+    "email": "E-mail",
+    "message": "Message",
+    "send": "Envoyer"
+},
   "jobes": {
     "title": "À propos",
     "about": "Qui sommes-nous ?",

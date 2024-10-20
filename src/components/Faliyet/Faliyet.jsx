@@ -7,7 +7,6 @@ import mescit from '../../assets/mescit.jpeg';
 import camie from '../../assets/cami.jpg';
 import { useState } from 'react';
 import { motion } from 'framer-motion';
-import Slider from '../Slider/Slider';
 import Footer from '../Slider/Footer';
 import { useTranslation } from 'react-i18next';
 
@@ -31,7 +30,7 @@ const Faliyet = () => {
 
   return (
     <div className="bg-gray-50 min-h-screen">
-      <Slider />
+     
 
       <h1 className="text-5xl font-extrabold text-center mb-1 my-10 text-gray-800 tracking-tight leading-tight">
         {t('faliyet.title')}

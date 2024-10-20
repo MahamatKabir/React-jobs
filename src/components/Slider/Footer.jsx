@@ -19,13 +19,13 @@ const Footer = () => {
           </div>
 
           {/* Section 2: Quick Links */}
-          <div className="mx-12 space-y-4">
+          <div className=" space-y-4">
             <h1 className="text-3xl font-bold">{t('quick_links')}</h1>
             <ul className="space-y-5 text-lg">
-              <li><NavLink to="/"> Home </NavLink></li>
-              <li><NavLink to="/kurumsal"> Kurumsal </NavLink></li>
-              <li><NavLink to="/faliyet"> Faaliyet </NavLink></li>
-              <li><NavLink to="/contact"> Contact </NavLink></li>
+              <li><NavLink to="/"> {t('navbar.home')}</NavLink></li>
+              <li><NavLink to="/kurumsal"> {t('navbar.kurumsal')}</NavLink></li>
+              <li><NavLink to="/faliyet"> {t('navbar.faliyet')} </NavLink></li>
+              <li><NavLink to="/contact"> {t('navbar.contact')} </NavLink></li>
             </ul>
           </div>
 
@@ -47,17 +47,20 @@ const Footer = () => {
 
           {/* Section 4: Newsletter */}
           <div className="space-y-4">
-            <h1 className="text-3xl font-bold">{t('newsletter')}</h1>
-            <p className="text-gray-300">
-              {t('newsletter_description')}
-            </p>
-            <div className="flex">
-              <input type="email" placeholder={t('your_email')} className="w-full p-3 rounded-l-lg bg-gray-700 text-white" />
-              <button className="bg-teal-500 text-white font-semibold px-6 rounded-r-lg hover:bg-teal-600 transition-all duration-300">
-                {t('subscribe')}
-              </button>
-            </div>
-          </div>
+  <h1 className="text-3xl font-bold">Contact</h1>
+  <p className="text-gray-300">
+    Ndjamena  - tchad
+  </p>
+  <p className="text-gray-300">
+    Phone: +235 96956323
+  </p>
+  
+  <p className="text-gray-300">
+    Email: alinfakorganisation@gmail.com
+  </p>
+  
+</div>
+
         </div>
 
         <div className="mt-8 border-t border-gray-700 pt-6 text-center">

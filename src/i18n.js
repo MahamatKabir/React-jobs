@@ -5,6 +5,7 @@ import { initReactI18next } from 'react-i18next';
 import translationEN from './locales/en/translation.json';
 import translationFR from './locales/fr/translation.json';
 import translationTR from './locales/tr/translation.json';
+import translationAR from './locales/ar/translation.json';
 
 // La configuration de i18n
 i18n
@@ -14,6 +15,7 @@ i18n
       en: { translation: translationEN },
       fr: { translation: translationFR },
       tr: { translation: translationTR },
+      ar: { translation: translationAR },
     },
     lng: 'en', // Langue par défaut
     fallbackLng: 'en', // Si une traduction est manquante, utiliser l'anglais
